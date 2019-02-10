@@ -1,14 +1,17 @@
 import React, { Component } from "react";
 import { View, Text } from "react-native";
-import Routes from "./Component/Routes";
 
-export default class WeatherApp extends Component {
+export default class Share extends Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
 
   render() {
-    return <Routes />;
+    return (
+      <View>
+        <Text> Share Component </Text>
+      </View>
+    );
   }
 }
