@@ -58,14 +58,6 @@ const SettingsStack = createStackNavigator(
   }
 );
 
-const styles = {
-  IconStyle: {
-    width: 20,
-    height: 20,
-    size: 20
-  }
-};
-
 const Tabnavigation = createBottomTabNavigator(
   {
     Home: {
